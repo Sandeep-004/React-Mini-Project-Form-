@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap');
+
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Castoro', serif;}
+
+input {
+
+  text-align: center;
+  padding: 10px 20px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  width: 45vw;
+  margin: 20px 0;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10%;
+    text-shadow: 0 1px 1px #fff;
+
+    
+}
+
+p{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 200;
+  text-shadow: 0 1px 1px #fff;
+
+  
+}
+
+button {
+
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid #fff;
+  justify-content: center;
+  background-color: crimson;
+  color: aliceblue;
+  width: 12vw;
+  outline: none;
+  cursor: pointer;
+  margin-left: 45%;
+}
+
+button:hover {
+  
+  border: 2px solid red;
+  background-color: #fff;
+  color: #000;
+
+}
+
+div {
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+span {
+  color: red;
+  font-size: xx-large;
+  text-shadow: 0 2px 2px #fff;
+}
